@@ -1,0 +1,152 @@
+@media (max-width:950px) {
+    .header5 {
+
+        display: flex;
+        flex-direction: column;
+        
+
+        flex-wrap: wrap;
+
+        .main5 {
+
+            display: flex;
+            flex-direction: column;
+    
+            flex-wrap: wrap;
+    
+            text-align: center;
+        }
+    }
+
+    .titulo2 {
+        font-size: 3rem;
+
+        .subtitulo2 {
+            font-size: 2.5rem;
+
+            .texto2 {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width:770px) {
+    .header5 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        .main5 {
+
+            display: flex;
+            flex-direction: column;
+    
+            flex-wrap: wrap;
+    
+            text-align: center;
+        }
+    }
+
+    .header3 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .row {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .titulo2 {
+        font-size: 3.5rem;
+
+        .subtitulo2 {
+            font-size: 3rem;
+
+            .texto2 {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .body2 {
+
+        display: flex;
+        flex-direction: column;
+        
+
+        flex-wrap: wrap;
+
+        .header5 {
+
+            display: flex;
+            flex-direction: column;
+    
+            flex-wrap: wrap;
+
+            .main5 {
+
+                display: flex;
+                flex-direction: column;
+        
+                flex-wrap: wrap;
+        
+                text-align: center;
+            }
+        }
+
+        .header4 {
+
+            display: flex;
+            flex-direction: column;
+    
+            flex-wrap: wrap;
+    
+        }
+
+        .header3 {
+
+            display: flex;
+            flex-direction: column;
+    
+            flex-wrap: wrap;
+        }
+
+        .row {
+
+            display: flex;
+            flex-direction: column;
+            
+    
+            flex-wrap: wrap;
+        }
+
+        .imagenes {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header2 {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .imagenes2 {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+

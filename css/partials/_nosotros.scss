@@ -1,0 +1,39 @@
+.titulo2 {
+    padding: 0;
+    color: $normalColor;
+    background-color: $mainColor;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2.5rem;
+    
+}
+
+.subtitulo2 {
+    color: $normalColor;
+    margin: 1.5rem;
+
+    .texto2 {
+        margin: 1.5rem;
+        font-size: 1.7rem;
+    }
+
+    .imagen22 {
+        border: 2px solid $primaryColor;
+
+        &:hover {
+            transition: 1s;
+            box-shadow: 4px 4px $primaryColor;
+        }
+    }
+
+    .imagen33 {
+        border: 2px solid $primaryColor;
+
+        &:hover {
+            transition: 1s;
+            box-shadow: 4px 4px $primaryColor;
+        }
+    }
+}
+

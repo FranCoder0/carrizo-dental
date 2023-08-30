@@ -1,0 +1,27 @@
+.col-4 {
+    margin: 0;
+    padding: 3rem;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+        transition: 1s;
+    }
+
+    .marca1 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: $secondaryColor;
+
+        .imagen4 {
+
+            &:hover {
+                transition: 1s;
+                box-shadow: 4px 4px $primaryColor;
+            }
+        }
+    }
+    
+}

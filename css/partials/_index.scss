@@ -1,0 +1,16 @@
+.imagenes {
+    border: 4px solid $primaryColor;
+    padding: 0;
+    margin: 8rem;
+
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+    &:hover {
+        transition: 1s;
+        box-shadow: 4px 4px $primaryColor;
+    }
+}
