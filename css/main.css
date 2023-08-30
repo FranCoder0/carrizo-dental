@@ -260,33 +260,6 @@
 }
 
 
-.menu__item a {
-
-    color: white;
-    text-decoration: none;
-    background-color: rgb(8, 7, 7);
-
-    border: 4px solid red;
-    padding: 3px;
-    margin: 10px;
-
-
-    font-size: 2rem;
-    text-align: center;
-    
-    display: flex;
-}
-
-.menu__item a:hover {
-    
-    background-color: rgb(182, 8, 8);
-    border: 4px solid white;
-    transition: 1s;
-}
-
-
-
-
 .linea {
     color: red;
 }
