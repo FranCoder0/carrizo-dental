@@ -6,8 +6,207 @@
     color: white;
 }
 
+@media (max-width:950px) {
+
+    .header5 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .main5 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        text-align: center;
+    }
+
+    
+
+    .titulo2 {
+        font-size: 3rem;
+    }
+
+    .subtitulo2 {
+        font-size: 2.5rem;
+    }
+
+    .texto2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width:770px) {
+
+    .header5 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .main5 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        text-align: center;
+    }
+
+    .header3 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .row {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .titulo2 {
+        font-size: 3.5rem;
+    }
+
+    .subtitulo2 {
+        font-size: 3rem;
+    }
+
+    .texto2 {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+@media (max-width:550px) {
+
+    .body2 {
+
+        display: flex;
+        flex-direction: column;
+        
+
+        flex-wrap: wrap;
+    }
+
+    .header5 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .main5 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        text-align: center;
+    }
+
+    .header4 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+    }
+
+    
+
+    .header3 {
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    }
+
+    .row {
+
+        display: flex;
+        flex-direction: column;
+        
+
+        flex-wrap: wrap;
+    }
+
+
+
+    .encabezado {
+
+        display: flex;
+       
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .imagenes2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+    
+    
+    .footer {
+        font-size: 1rem;
+    }
+
+    .titulo2 {
+        font-size: 4rem;
+    }
+
+    .subtitulo2 {
+        font-size: 3.5rem;
+    }
+
+    .texto2 {
+        font-size: 1.5rem;
+    }
+}
+
 .body {
     background-color: rgb(8, 7, 7);
+    text-align: center;
 }
 
 
@@ -135,7 +334,8 @@
 
 
 .body2 {
-    background-color: rgb(8, 7, 7);;
+    background-color: rgb(8, 7, 7);
+    text-align: center;
 }
 
 
@@ -189,6 +389,9 @@
     margin: 0;
     padding: 3rem;
     text-align: center;
+    
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -281,50 +484,15 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "header2"
-    "nosotross"
+    "navbar"
+    "texto2"
+    "imagenes2"
     "footer";
 
     
 }
 
-@media (max-width:550px) {
-    .encabezado {
 
-        display: flex;
-       
-        flex-wrap: wrap;
-        
-        
-    }
 
-    .header {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .imagenes {
-        flex-direction: column;
-    }
-
-    .header2 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .imagenes2 {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    
-    .footer {
-        font-size: 2.5rem;
-    }
-
-    
-}
 
 
