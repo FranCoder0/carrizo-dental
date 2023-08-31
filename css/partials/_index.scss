@@ -1,7 +1,15 @@
+.imagen1 {
+    padding: 1rem;
+}
+
+@mixin posicion($padding, $margin) {
+    padding: $padding;
+    margin: $margin;
+}
+
 .imagenes {
     border: 4px solid $primaryColor;
-    padding: 0;
-    margin: 8rem;
+    @include posicion(0, 8rem);
 
     
 
@@ -11,6 +19,6 @@
 
     &:hover {
         transition: 1s;
-        box-shadow: 4px 4px $primaryColor;
+        box-shadow: 4px 4px $primaryColor
     }
 }
