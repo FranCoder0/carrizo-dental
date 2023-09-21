@@ -6,6 +6,8 @@
     font-size: 3rem;
     font-weight: bold;
     margin: 2.5rem;
+
+    
     
 }
 
@@ -13,27 +15,33 @@
     color: $normalColor;
     margin: 1.5rem;
 
-    .texto2 {
-        margin: 1.5rem;
-        font-size: 1.7rem;
-    }
+}
 
-    .imagen22 {
-        border: 2px solid $primaryColor;
+.texto2 {
+    margin: 1.5rem;
+    font-size: 1.7rem;
+}
 
-        &:hover {
-            transition: 1s;
-            box-shadow: 4px 4px $primaryColor;
-        }
-    }
+.imagen22 {
 
-    .imagen33 {
-        border: 2px solid $primaryColor;
+    max-width: 100%;
+    border: 2px solid $primaryColor;
 
-        &:hover {
-            transition: 1s;
-            box-shadow: 4px 4px $primaryColor;
-        }
+    &:hover {
+        transition: 1s;
+        box-shadow: 4px 4px $primaryColor;
     }
 }
+
+.imagen33 {
+    max-width: 100%;
+    border: 2px solid $primaryColor;
+
+    &:hover {
+        transition: 1s;
+        box-shadow: 4px 4px $primaryColor;
+    }
+}
+
+
 

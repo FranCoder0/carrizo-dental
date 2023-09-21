@@ -58,14 +58,6 @@
         flex-wrap: wrap;
     }
 
-    .row {
-
-        display: flex;
-        flex-direction: column;
-
-        flex-wrap: wrap;
-    }
-
     .titulo2 {
         font-size: 3.5rem;
 
@@ -80,6 +72,7 @@
 }
 
 @media (max-width:550px) {
+    
     .body2 {
 
         display: flex;
@@ -87,6 +80,8 @@
         
 
         flex-wrap: wrap;
+
+        
 
         .header5 {
 
@@ -123,19 +118,61 @@
             flex-wrap: wrap;
         }
 
+        .imagenes {
+            align-content: center;
+            text-align: center;
+        }
+        
+        .imagenes2 {
+            align-content: center;
+        }
+
+        .main4 {
+            align-content: center;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        
+
+
+        .formulario2 {
+            width: 200%;
+        }
+
+        .ubic1 {
+            width: 300%;
+        }
+
+        .ubicaciones {
+            max-width: 100%;
+        }
+
+        .ciudad {
+            align-content: center;
+            text-align: center;
+        }
+
+
         .row {
+
+            text-align: center;
 
             display: flex;
             flex-direction: column;
             
     
             flex-wrap: wrap;
+            
+
+            
         }
 
-        .imagenes {
-            display: flex;
-            flex-direction: column;
-        }
+
+        
+
+        
 
         .header2 {
             display: flex;

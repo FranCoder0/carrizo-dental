@@ -1,6 +1,7 @@
 .productos {
     padding: 2.5rem;
     margin: 0rem;
+    
 
     .producto1 {
 
@@ -10,10 +11,13 @@
     
         padding: 1rem;
         margin: 0rem;
+        
+        max-width: 300%;
 
-        .titulo3 {
-            color: $normalColor;
-        }
     }
     
+    .titulo3 {
+        color: $normalColor;
+        
+    }
 }

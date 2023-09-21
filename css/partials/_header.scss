@@ -1,19 +1,7 @@
-header {
-    display: flex;
-    background-color: $mainColor;
+.imagen1 {
+    padding: 1rem;
+}
 
-    gap: 6rem;
-    margin: 2rem;
-
-    .imagen1 {
-        padding: 1rem;
-    }
-
-    .linea {
-        color: $primaryColor;
-    }
-
-
-
-
+.linea {
+    color: red;
 }
